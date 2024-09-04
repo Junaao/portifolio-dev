@@ -1,0 +1,51 @@
+h3 {
+    color: var(--red);
+    font:var(--text-lg);
+    display: flex;
+    justify-content: left;
+    padding-bottom: 8px;
+}
+
+h2 {
+    color: var(--gray-600);
+    font: var(--h2);
+    padding-bottom: 56px;
+}
+
+.imagens {
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,auto);
+    gap: 24px;
+    padding: 20px;
+    justify-content: center;
+    max-width: 306px;
+    max-height: 75px;
+
+}
+
+.grid-item {
+    background-color: var(--gray-300);
+    padding: 10px;
+    text-align: left;
+    border-radius: 8px;
+    max-width: 330px;
+    max-height: 280px;
+
+  
+}
+
+main img { 
+    max-width: 306px ;
+    max-height: 156px;
+}
+
+.imagens h3 {
+    color: var(--gray-600);
+    font: var(--text-sm);
+  
+
+    
+
+}
