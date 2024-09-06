@@ -1,0 +1,46 @@
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 88px auto 120px;
+
+
+} 
+
+
+
+.serviços {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1,auto);
+    gap: 24px;
+}
+
+
+
+.caixa {
+    border: 2px solid var(--gray-200);
+    border-radius: 12px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.caixa h3 {
+    font: var(--h3);
+    color: var(--gray-600);
+    margin-top: 20px;
+  
+    
+}
+
+.caixa p {
+    font: var(--text-md);
+    color: var(--gray-500);
+    
+}
+

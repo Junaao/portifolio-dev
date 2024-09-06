@@ -39,13 +39,17 @@ h2 {
 main img { 
     max-width: 306px ;
     max-height: 156px;
+    border-radius: 8px;
 }
 
 .imagens h3 {
     color: var(--gray-600);
     font: var(--text-sm);
-  
-
-    
-
+    padding-top: 20px;
+    gap: 4px;
+}
+.imagens p {
+    color: var(--gray-500);
+    font: var(--text-sm);
+    gap: 4px;
 }
