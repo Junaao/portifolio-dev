@@ -9,6 +9,16 @@ h3 {
 h2 {
     color: var(--gray-600);
     font: var(--h2);
+    
+    
+}
+
+#mainH3 {
+    justify-content: center;
+    padding-top: 72px;
+}
+
+#mainH2 {
     padding-bottom: 56px;
 }
 

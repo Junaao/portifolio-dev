@@ -8,12 +8,23 @@
 
 } 
 
+.titulo h3 {
+    color: var(--red);
+    font: var(--text-lg);
+    padding-bottom: 8px;
+}
+
+.titulo h2 {
+    color: var(--gray-600);
+    font: var(--h2);
+    padding-bottom: 56px;
+}
+
 
 
 .serviços {
     display: grid;
     justify-content: center;
-    align-items: center;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1,auto);
     gap: 24px;
@@ -34,6 +45,7 @@
     font: var(--h3);
     color: var(--gray-600);
     margin-top: 20px;
+    
   
     
 }
@@ -41,6 +53,7 @@
 .caixa p {
     font: var(--text-md);
     color: var(--gray-500);
+
     
 }
 
